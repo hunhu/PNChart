@@ -43,6 +43,23 @@
 
 @implementation PNPieChart
 
+- (void)awakeFromNib {
+  [super awakeFromNib];
+  _selectedItems = [NSMutableDictionary dictionary];
+  _outerCircleRadius  = CGRectGetWidth(self.bounds) / 2;
+  _innerCircleRadius  = 0.0;
+  _descriptionTextColor = [UIColor clearColor];
+  _descriptionTextFont  = [UIFont fontWithName:@"Avenir-Medium" size:18.0];
+  _descriptionTextShadowColor  = [[UIColor blackColor] colorWithAlphaComponent:0.4];
+  _descriptionTextShadowOffset =  CGSizeMake(0, 1);
+  _duration = 1.0;
+  _shouldHighlightSectorOnTouch = YES;
+  _enableMultipleSelection = NO;
+  
+  [super setupDefaultValues];
+  [self loadDefault];
+}
+
 -(id)initWithFrame:(CGRect)frame items:(NSArray *)items{
     self = [self initWithFrame:frame];
     if(self){
@@ -92,7 +109,7 @@
 /** Override this to change how inner attributes are computed. **/
 - (void)recompute {
     self.outerCircleRadius = CGRectGetWidth(self.bounds) / 2;
-    self.innerCircleRadius = CGRectGetWidth(self.bounds) / 6;
+    self.innerCircleRadius = 0.0;
 }
 
 #pragma mark -

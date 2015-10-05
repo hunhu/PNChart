@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ABBC29B0DBA23FF98210CC04F237C8AA532E10C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F96DDD719D355BF3A054BC00A670E0792A6C501D" : 0,
+    "ABBC29B0DBA23FF98210CC04F237C8AA532E10C1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "117AF4B3-A0F5-487E-9005-A3B8CA534FD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F96DDD719D355BF3A054BC00A670E0792A6C501D" : "..\/..\/..\/..",
+    "ABBC29B0DBA23FF98210CC04F237C8AA532E10C1" : "PNChart\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PNChartDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PNChartDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hunhu\/PNChart.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABBC29B0DBA23FF98210CC04F237C8AA532E10C1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hunhu\/hunhu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F96DDD719D355BF3A054BC00A670E0792A6C501D"
+    }
+  ]
+}
