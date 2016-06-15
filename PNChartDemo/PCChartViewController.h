@@ -18,12 +18,14 @@
 @property (nonatomic) PNPieChart *pieChart;
 @property (nonatomic) PNScatterChart *scatterChart;
 @property (nonatomic) PNRadarChart *radarChart;
+@property (weak, nonatomic) IBOutlet UILabel *centerSwitchLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 - (IBAction)changeValue:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *changeValueButton;
 
+@property (weak, nonatomic) IBOutlet UISwitch *animationsSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *leftSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *centerSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *rightSwitch;
@@ -32,6 +34,5 @@
 
 - (IBAction)rightSwitchChanged:(id)sender;
 - (IBAction)leftSwitchChanged:(id)sender;
-- (IBAction)rightSwitchChanged:(id)sender;
 
 @end
